@@ -31,11 +31,13 @@ nav {
 
 article {
 	background-color: #00ff00;
+	width: 100%
 }
 
 footer {
 	background-color: #ff0000;
 	justify-content: center;
+	width: 100%
 }
 
 h1 {
