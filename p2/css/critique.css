@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+img {
+	width: 50%;
+}
+
+p {
+	width: 50%;
+}
