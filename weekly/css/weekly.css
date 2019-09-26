@@ -56,7 +56,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-<!--body{
+body{
 	margin: 0 15%;
-	font-family: Inter;
-}-->
+	font-family: Inter, sans-serif;
+}
