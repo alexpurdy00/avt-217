@@ -75,25 +75,25 @@ dd {
 	color: white;
 }
 
-dd a:link {
+a:link {
   color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
-dd a:visited {
+a:visited {
   color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
-dd a:hover {
+a:hover {
   color: black;
   text-decoration: none;
   font-size: 30px;
 }
 
-dd a:active {
+a:active {
   color: red;
   text-decoration: none;
 }
