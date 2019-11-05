@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Nivo slider excercise</title>
+	<link rel="stylesheet" href="nevo-slider/themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nevo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nevo-slider/demo/style.css" type="text/css" media="screen" />
+</head>
+
+<body>
+	 <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="../../p1/p1/img/mobile.png" data-thumb="../../p1/p1/img/mobile.png" alt="" />
+                <a href="http://dev7studios.com"><img src="../../p1/p1/img/mobile2.png" data-thumb="../../p1/p1/img/mobil2.png" alt="" title="This is an example of a caption" /></a>
+                <img src="../w1/ana-myself-et-moi-title.png" data-thumb="../../weekly/w1/" alt="" data-transition="slideInLeft" />
+                <img src="img/IMG_0005.JPG" data-thumb="img/IMG_0005.JPG" alt="" title="#htmlcaption" />
+				<img src="../../p1/p1/img/desktop.png" data-thumb="../../p1/p1/img/desktop.png" alt="" title="Website 1" />
+				<img src="../../p1/p1/img/desktop2.png" data-thumb="../../p1/p1/img/desktop2.png" alt="" title="Website 2" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+    </div>
+	<script type="text/javascript" src="nevo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="nevo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
