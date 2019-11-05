@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link rel="stylesheet" href="css/home.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<nav>
+                <ul class="mainnav">
+					<li><h1>Home</h1></li>
+                    <li><a href="menu.html"><h2>Menu</h2></a></li>
+					<li><a href="aboutus.html"><h2>About Us</h2></a></li>
+					<li><a href="catering.html"><h2>Catering</h2></a></li>
+                </ul>
+            </nav>
+			<div id="logo">
+                <h1>Ray's</h1> 
+                <h2>Hell</h2> 
+                <h3>Burgers</h3>
+			</div><!--logo-->
+		</header>
+		<main>
+			<div class="border">
+				<div id="picture">
+                    <img src="img/storefront.png" alt="storefront">
+				</div><!--picture-->
+			</div><!--border-->
+			<div class="border2">
+				<div id="info">
+					<h1>Info</h1>
+					<h2>Location:</h2>
+					<h3>1234 Wilson Boulevard, Arlington, VA</h3>
+                    <h2>For Reservaions:</h2>
+                    <h3>01 223 367 4800</h3>
+					<h2>Hours</h2>
+					<h3>Sunday-Thursday:</h3>
+					<p>11-9</p>
+					<h3>Friday-Saturday:</h3>
+					<p>10-10</p>
+				</div><!--info-->
+				
+					<div id="map"></div><!--map-->
+					<script>
+						function initMap() {
+  							// The location of Uluru
+							var rhb = {lat: 38.895163, lng: -77.071448};
+							// The map, centered at Uluru
+							var map = new google.maps.Map(
+								document.getElementById('map'), {zoom: 4, center: rhb});
+  							// The marker, positioned at Uluru
+  							var marker = new google.maps.Marker({position: rhb, map: map});
+						}
+					</script>
+					<script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPSM8nkNStP6YPrYdW7GuduIcR2EYSxiw&callback=initMap">
+					</script>
+				
+				<div id="ratings">
+					<h1>Customer Reviews</h1>
+					<p>The best burger I've ever had</p>
+					<h2>-Gorden Ramsey</h2>
+					<p>Best Burger in the whole DMV.</p>
+					<h2>-Washington Post</h2>
+                    <p>I concur.</p>
+                    <h2>-New York Times</h2>
+				</div><!--ratings-->
+			</div><!--border2-->
+            <div id="icons">
+                <img src="img/socials/f_logo_RGB-Blue_1024.png" alt="facebook">
+                <img src="img/socials/glyph-logo_May2016.png" alt="instagram">
+                <img src="img/socials/Twitter_Logo_WhiteOnBlue.png" alt="twitter">
+			</div><!--icons-->
+		</main>
+		<footer>
+			<h9>Copyright 2019 Rays Hell Burgers, LLC</h9>
+		</footer>
+	</div><!--wrapper-->
+</body>
+</html>

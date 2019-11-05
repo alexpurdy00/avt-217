@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+@import url('https://rsms.me/inter/inter.css'); @supports (font-variation-settings: normal); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html { 
+	font-family: 'Inter', sans-serif; 
+} 
+
+body {
+	width: 1024px;
+	margin: 0 24% 0 24%;
+}
+
+#wrapper {
+	background-image: url("../img/wood_background1.jpg");
+	height: 810px;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+#logo {
+	margin-left: 1%;
+	/*margin-top: 30px;*/
+    font-family: 'Oswald', sans-serif;
+    width: 49%;
+}
+
+#logo h1 {
+    font-size: 32px;
+}
+
+#logo h2 {
+    font-size: 40px;
+    color: red;
+}
+
+#logo h3 {
+    font-size: 21px;
+}
+
+nav {
+	margin-right: 30px;
+	/*margin-top: 30px;*/
+}
+
+ul.mainnav {
+	float: right;
+	list-style-type: none;
+}
+
+ul.mainnav li {
+	float: left;
+	margin: 15px 15px 0 0;
+}
+
+nav h1 {
+	color: red;
+    font-size: 20px;
+}
+
+nav h2 {
+	font-size: 20px;
+}
+
+nav a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: yellow;
+  background-color: black;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: red;
+  background-color: black;
+  text-decoration: none;
+}
+
+.border {
+	width: 1023px;
+	height: 350px;
+	float: left;
+    overflow: hidden;
+}
+
+
+.border2 {
+	width: 1023px;
+	height: auto;
+	float: left;
+	
+}
+
+#picture {
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#picture img {
+    width: 100%;
+}
+
+#info {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	width: 25%;
+	margin: 15px 1.5% 0 1.5%;
+}
+
+#info h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+#info h2 {
+	font-size: 25px;
+}
+#info h3 {
+	font-size: 20px;
+}
+#info p {
+	font-size: 15px;
+}
+
+#map {
+	height: 350px;
+  	width: 35%;
+	margin: 15px 1.5% 0 1.5%;
+  	float: left;
+ }
+
+#ratings {
+	font-family: 'Open Sans', sans-serif;
+	width: 30%;
+	float: left;
+	margin: 15px 1.5% 0 1.5%;
+}
+
+#ratings h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#ratings h2 {
+	font-size: 18px;
+	float: right;
+	margin-bottom: 10px;
+	width: 100%;
+}
+#ratings p {
+	font-size: 20px;
+	width: 100%;
+}
+
+#icons {
+    margin-top: 15px;
+    float: right;
+    width: 49%;
+}
+
+#icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 15px;
+    float: right;
+}
+
+footer {
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+}
