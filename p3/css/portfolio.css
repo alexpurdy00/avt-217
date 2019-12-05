@@ -30,7 +30,8 @@
 }
 
 .project img {
-	width: 100%;
+	height: 500px;
+	width: auto;
 }
 
 .project iframe {
