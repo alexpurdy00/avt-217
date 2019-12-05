@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.sidebar {
+#sidebar {
 	width: 480px;
 	height: auto;
 	overflow: hidden;
@@ -9,7 +9,7 @@
 	float: right;
 }
 
-.sidebar h1 {
+#sidebar h1 {
 	font-size: 40px;
 	margin-left: 1%;
 }
@@ -18,13 +18,13 @@
 	margin: 10px 0 10px 1%;
 }
 
-.proj h1 {
-	margin-left: 0%;
+.proj h2 {
 	font-size: 30px;
 }
 
-.proj h2 {
+.proj h3 {
 	font-size: 25px;
+	margin-top: 5px;
 }
 
 .proj img {

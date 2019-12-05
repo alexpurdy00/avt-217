@@ -15,7 +15,7 @@
 
 <body>
 	<header>
-		<div id="logo"><a href="#">
+		<div id="logo"><a href="index.html">
 			<h1>Alex</h1>
 			<h2>Purdy</h2>
 		</a></div>
@@ -26,11 +26,11 @@
 					<div class="dropdown-content" id="myDropdown">
 						<a href="film.html">Film</a>
 						<a href="graphicdesign.html">Graphic Design</a>
-						<a href="#">Web Design</a>
+						<a href="">Web Design</a>
 					</div>
 				</div>
-				<a href="#">About Me</a>
-				<a href="#">Contact Me</a>
+				<a href="contactme.html">Contact Me</a>
+				<a href="aboutme.html">About Me</a>
 			</div>
 
 			<script>
@@ -52,41 +52,69 @@
 			</script>
 		</nav>
 	</header>
+	
 	<main>
-	<div class="sidebar">
+		<div id="sidebar">
 			<h1>Websites</h1>
 			<div class="proj">
-				<h1><a href="#amem">Ana, Myself, et Moi</a></h1>
+				<h2><a href="#clementine">Clementine</a></h2>
+			</div>
+			<div class="proj">
+				<h2><a href="#amem">Ana, Myself, et Moi</a></h2>
 			</div>
 		</div>
+		
+		<div class="project">
+			<h1 id="clementine"><a href="http://www.clementinethefilm.weebly.com">Clementine</a></h1>
+			<div class="slider-wrapper theme-default">
+            	<div id="slider2" class="nivoSlider">
+					<img src="img/amem/home.jpg" data-thumb="img/amem/home.jpg" alt="" title="Home"/>
+	                <img src="img/amem/about.jpg" data-thumb="img/amem/about.jpg" alt="" title="About" />
+    	            <img src="img/amem/crew.jpg" data-thumb="img/amem/crew.jpg" alt="" title="Crew" />
+        	        <img src="img/amem/festivals.jpg" data-thumb="img/amem/festivals.jpg" alt="" title="Festivals" />
+					<img src="img/amem/press.jpg" data-thumb=".img/amem/press.jpg" alt="" title="Press" />
+					<img src="img/amem/bts.jpg" data-thumb="img/amem/bts.jpg" alt="" title="BTS" />
+            	</div>
+			</div>
+			<script type="text/javascript" src="nevo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
+    		<script type="text/javascript" src="nevo-slider/jquery.nivo.slider.js"></script>
+    		<script type="text/javascript">
+				$(window).load(function() {
+        			$('#slider2').nivoSlider();
+    			});
+    		</script>
+			<p>I worked with Director/Producer Zeyn Faddoul to ensure that the website conformed with her artistic vision.</p>
+		</div>
+		
 		<div class="project">
 			<h1 id="amem"><a href="http://www.anamyselfetmoi.weebly.com">Ana, Myself, et Moi</a></h1>
 			<div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-                <img src="img/amem/home.png" data-thumb="img/amem/home.png" alt="" title="Home"/>
-                <img src="img/amem/about.png" data-thumb="img/amem/about.png" alt="" title="About" />
-                <img src="img/amem/crew.png" data-thumb="img/amem/crew.png" alt="" data-transition="Crew" />
-                <img src="img/amem/festivals.png" data-thumb="img/amem/festivals.png" alt="" title="Festivals" />
-				<img src="img/amem/press.png" data-thumb=".img/amem/press.png" alt="" title="Press" />
-				<img src="img/amem/bts.png" data-thumb="img/amem/bts.png" alt="" title="BTS" />
-            </div>
+            	<div id="slider1" class="nivoSlider">
+                	<img src="img/amem/home.jpg" data-thumb="img/amem/home.jpg" alt="" title="Home"/>
+	                <img src="img/amem/about.jpg" data-thumb="img/amem/about.jpg" alt="" title="About" />
+    	            <img src="img/amem/crew.jpg" data-thumb="img/amem/crew.jpg" alt="" title="Crew" />
+        	        <img src="img/amem/festivals.jpg" data-thumb="img/amem/festivals.jpg" alt="" title="Festivals" />
+					<img src="img/amem/press.jpg" data-thumb=".img/amem/press.jpg" alt="" title="Press" />
+					<img src="img/amem/bts.jpg" data-thumb="img/amem/bts.jpg" alt="" title="BTS" />
+            	</div>
 			</div>
-	<script type="text/javascript" src="nevo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="nevo-slider/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
+			<script type="text/javascript" src="nevo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
+    		<script type="text/javascript" src="nevo-slider/jquery.nivo.slider.js"></script>
+    		<script type="text/javascript">
+				$(window).load(function() {
+        			$('#slider1').nivoSlider();
+    			});
+    		</script>
 			<p>I worked with Director/Producer Zeyn Faddoul to ensure that the website conformed with her artistic vision.</p>
 		</div>
 	</main>
+	
 	<footer>
 		<h1>© Alex Purdy</h1>
-		<img src="img/socials/f_logo_RGB-Blue_1024.png" alt="Facebook">
-		<img src="img/socials/glyph-logo_May2016.png" alt="Instagram">
-		<img src="img/socials/letterboxd-decal-dots-pos-rgb-500px.png" alt="Letterboxd">
-		<img src="img/socials/Twitter_Logo_WhiteOnBlue.png" alt="Twitter">
+		<img src="img/socials/facebook.png" alt="Facebook">
+		<img src="img/socials/insta_bw.png" alt="Instagram">
+		<img src="img/socials/letterboxd.png" alt="Letterboxd">
+		<img src="img/socials/twitter.png" alt="Twitter">
 	</footer>
 </body>
 </html>

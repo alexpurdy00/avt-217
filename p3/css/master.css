@@ -51,15 +51,17 @@ table {
 body {
 	font-family:Inter, sans-serif;
 	width: 1440px;
-	margin-left: 200px;
+	margin: auto;
 }
 
 main {
 	height: auto;
+	min-height: 500px;
 }
 
 a:link, a:visited {
   	color:black;
+	background-color: white;
   	text-decoration: none;
 }
 

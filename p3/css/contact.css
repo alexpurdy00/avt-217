@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main {
+	margin:auto;
+	width: 50%;
+	text-align: center;
+}
+
+main h1 {
+	font-size: 30px;
+}
+
+main h2 {
+	font-size: 20px;
+	margin-top: 10px;
+}

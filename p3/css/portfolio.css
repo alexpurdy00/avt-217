@@ -7,6 +7,7 @@
 	overflow: hidden;
 	border: medium solid black;
 	float: left;
+	margin-bottom: 20px;
 }
 
 .project h1 {
@@ -26,6 +27,10 @@
 
 .project p a {
 	font-style: italic;
+}
+
+.project img {
+	width: 100%;
 }
 
 .project iframe {
