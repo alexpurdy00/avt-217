@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+	
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="stylesheet" href="css/hf.css">
+<link rel="stylesheet" href="css/sidebar.css">
+	
+<link rel="stylesheet" href="nevo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nevo-slider/nivo-slider.css" type="text/css" media="screen" />
+</head>
+
+<body>
+	<header>
+		<div id="logo"><a href="">
+			<h1>Alex</h1>
+			<h2>Purdy</h2>
+		</a></div>
+		<nav>
+			<div class="navbar">
+				<div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Portfolio <em class="fa fa-caret-down"></em></button>
+					<div class="dropdown-content" id="myDropdown">
+						<a href="film.html">Film</a>
+						<a href="graphicdesign.html">Graphic Design</a>
+						<a href="webdesign.html">Web Design</a>
+					</div>
+				</div>
+				<a href="contactme.html">Contact Me</a>
+				<a href="aboutme.html">About Me</a>
+			</div>
+
+			<script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myFunction() {
+  					document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+  					if (!e.target.matches('.dropbtn')) {
+  						var myDropdown = document.getElementById("myDropdown");
+    					if (myDropdown.classList.contains('show')) {
+							myDropdown.classList.remove('show');
+						}
+  					}
+				}
+			</script>
+		</nav>
+	</header>
+	
+	<main>
+		<div id="sidebar">
+			<h1>Projects</h1>
+			<div class="proj">
+				<h2>Clementine</h2>
+				<h3><a href="graphicdesign.html#clementine">Graphic Design</a></h3>
+				<h3><a href="webdesign.html#clementine">Web Design</a></h3>
+			</div>
+			<div class="proj">
+				<h2>Elise BTS</h2>
+				<h3><a href="film.html#elise_bts">Film</a></h3>
+			</div>
+			<div class="proj">
+				<h2>Ana, Myself, et Moi</h2>
+				<h3><a href="webdesign.html#amem">Web Design</a></h3>
+			</div>
+		</div><!--end sidebar-->
+		
+		<div class="project">
+			<div class="slider-wrapper theme-default">
+            	<div id="slider" class="nivoSlider">
+                	<img src="img/amem/jpg/home.jpg" data-thumb="img/amem/jpg/home.jpg" alt="" title="AMeM Home"/>
+                	<img src="img/clementine/jpg/about.jpg" data-thumb="img/clementine/jpg/about.jpg" alt="" title="Clementine About" />
+                	<img src="img/clementine/clementine1sheet.jpg" data-thumb="img/clementine/clementine1sheet.jpg" alt="" title="Clementine One Sheet" />
+                	<img src="img/amem/jpg/festivals.jpg" data-thumb="img/amem/jpg/festivals.jpg" alt="" title="Festivals" />
+            	</div>
+			</div>
+			<script type="text/javascript" src="nevo-slider/demo/scripts/jquery-1.9.0.min.js"></script>
+    		<script type="text/javascript" src="nevo-slider/jquery.nivo.slider.js"></script>
+    		<script type="text/javascript">
+    			$(window).load(function() {
+        			$('#slider').nivoSlider();
+				});
+			</script>
+		</div>
+	</main>
+	
+	<footer>
+		<h1>© Alex Purdy</h1>
+		<a href=""><img src="img/socials/facebook.png" alt="Facebook"></a>
+		<a href=""><img src="img/socials/insta_bw.png" alt="Instagram"></a>
+		<a href=""><img src="img/socials/letterboxd.png" alt="Letterboxd"></a>
+		<a href=""><img src="img/socials/twitter.png" alt="Twitter"></a>
+	</footer>
+</body>
+</html>
